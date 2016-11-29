@@ -11,19 +11,21 @@
 
       <image id = "player" x = "200" y = "100" width = "20" height = "20" xlink:href = "http://vignette3.wikia.nocookie.net/ssb/images/6/6d/Originalpac.png/revision/latest?cb=20140918001012" />
 
-      <image id = "food1" x = "100" y = "0" width = "6" height = "6" xlink:href = "http://mayjesuschristbepraised.com/pictures/2014/0/Powerpellet%2001-1.png">
+      <image id = "food1" x = "100" y = "0" width = "10" height = "10" xlink:href = "https://t7.rbxcdn.com/6599d88c540dfaae09bc4bd3fe2b2130">
 
-      <animate attributeName = "y" from = "0" to = "185" dur = "2.5s" begin = "0s" repeatCount = "indefinite" />
+      <animate id = "food1Animation" attributeName = "y" from = "0" to = "185" dur = "2.5s" begin = "0s" repeatCount = "indefinite" />
+
+      </image>
+
+      <image id = "food2" x = "300" y = "0" width = "10" height = "10" xlink:href = "http://www.unixstickers.com/image/cache/data/stickers/pacman/Pacman-strawberry.sh-600x600.png">
+
+        <animate id = "food2Animation" attributeName = "y" from = "0" to = "185" dur = "2.5s" begin = "0s" repeatCount = "indefinite" />
 
       </image>
 
-      <image id = "food2" x = "300" y = "0" width = "6" height = "6" xlink:href = "http://mayjesuschristbepraised.com/pictures/2014/0/Powerpellet%2001-1.png">
-
-        <animate attributeName = "y" from = "0" to = "185" dur = "2.5s" begin = "0s" repeatCount = "indefinite" />
-
-      </image>
+      <text id = "score" x = "0" y = "7" font-size = "10" fill = "white">Food Eaten: 0</text>
 
     </svg>
-    <script type="text/javascript" src="project-6.js"></script>
+    <script src="project-6.js"></script>
   </body>
 </html>
